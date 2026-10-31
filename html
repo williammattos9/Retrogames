@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RETRO ROOMS ▸ playlist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="crt">
+    <header>
+      <h1>▚▚ RETRO ROOMS ▞▞</h1>
+      <span class="blink">● REC</span>
+    </header>
+
+    <div class="player">
+      <div class="lcd">
+        <span id="track-title">— selecione uma faixa —</span>
+        <div class="marquee" id="track-time">00:00</div>
+      </div>
+      <audio id="audio" controls></audio>
+      <div class="controls">
+        <button id="prev">⏮ PREV</button>
+        <button id="play">▶ PLAY</button>
+        <button id="next">⏭ NEXT</button>
+      </div>
+    </div>
+
+    <ul class="playlist" id="playlist"></ul>
+
+    <footer>EST. 1987 // SYSTEM READY</footer>
+  </div>
+  <script src="player.js"></script>
+</body>
+</html>
